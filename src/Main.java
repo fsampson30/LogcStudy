@@ -6,6 +6,7 @@ public class Main {
         Calculator calculator = new Calculator();
         UtilDates utilDates = new UtilDates();
         ManagingLists managingLists = new ManagingLists();
+        WhileLoop whileLoop = new WhileLoop();
 
         forLoop.repeatFiveTimes();
         System.out.println("Sum value: " + calculator.sumValues() + " " +  utilDates.getInstant());
@@ -25,6 +26,8 @@ public class Main {
         managingLists.addNameToList();
 
         managingLists.removeNameFromList();
+
+        whileLoop.repetition();
 
 
     }
