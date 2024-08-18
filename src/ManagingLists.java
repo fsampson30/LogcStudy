@@ -13,7 +13,7 @@ public class ManagingLists {
     }
 
     public List<String> getAllNames() {
-        return names.stream().toList();
+        return names;
     }
 
     public String getNameById() {
