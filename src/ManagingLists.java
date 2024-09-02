@@ -12,6 +12,7 @@ public class ManagingLists {
         names.add("Natalia");
         Person person = new Person("SomeGuy",21L);
         names.add(person.name());
+
     }
 
     public List<String> getAllNames() {
